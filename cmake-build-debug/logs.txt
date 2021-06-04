@@ -1,0 +1,110 @@
+TEST CREATE INT (N=10000)
+Dynamic array: 371 microseconds
+Linked list: 175404 microseconds
+Dynamic array is 472 times faster than a linked list!
+
+TEST CREATE DOUBLE (N=10000)
+Dynamic array: 200 microseconds
+Linked list: 170970 microseconds
+Dynamic array is 854 times faster than a linked list!
+
+TEST COPY INT (N=10000)
+Dynamic array: 238 microseconds
+Linked list: 170116 microseconds
+Dynamic array is 714 times faster than a linked list!
+
+TEST COPY DOUBLE (N=10000)
+Dynamic array: 181 microseconds
+Linked list: 199435 microseconds
+Dynamic array is 1101 times faster than a linked list!
+
+TEST GET INT (N=10000)
+Dynamic array: 73 microseconds
+Linked list: 167676 microseconds
+Dynamic array is 2296 times faster than a linked list!
+
+TEST GET DOUBLE (N=10000)
+Dynamic array: 146 microseconds
+Linked list: 190233 microseconds
+Dynamic array is 1302 times faster than a linked list!
+
+TEST APPEND INT (N=10000)
+Dynamic array: 280558 microseconds
+Linked list: 899 microseconds
+Linked list is 312 times faster than a dynamic array!
+
+TEST APPEND DOUBLE (N=10000)
+Dynamic array: 927021 microseconds
+Linked list: 1213 microseconds
+Linked list is 764 times faster than a dynamic array!
+
+TEST PREPEND INT (N=10000)
+Dynamic array: 870375 microseconds
+Linked list: 793 microseconds
+Linked list is 1097 times faster than a dynamic array!
+
+TEST PREPEND DOUBLE (N=10000)
+Dynamic array: 1307134 microseconds
+Linked list: 942 microseconds
+Linked list is 1387 times faster than a dynamic array!
+
+TEST INSERT INT (N=10000)
+Dynamic array: 623962 microseconds
+Linked list: 101337 microseconds
+Linked list is 6 times faster than a dynamic array!
+
+TEST INSERT DOUBLE (N=10000)
+Dynamic array: 664783 microseconds
+Linked list: 89428 microseconds
+Linked list is 7 times faster than a dynamic array!
+
+TEST ADD INT (N=10000)
+Dynamic array: 732 microseconds
+Linked list: 771265 microseconds
+Dynamic array is 1053 times faster than a linked list!
+
+TEST ADD DOUBLE (N=10000)
+Dynamic array: 492 microseconds
+Linked list: 713370 microseconds
+Dynamic array is 1449 times faster than a linked list!
+
+TEST MUL SCALAR INT (N=10000)
+Dynamic array: 387 microseconds
+Linked list: 533231 microseconds
+Dynamic array is 1377 times faster than a linked list!
+
+TEST MUL SCALAR DOUBLE (N=10000)
+Dynamic array: 419 microseconds
+Linked list: 532436 microseconds
+Dynamic array is 1270 times faster than a linked list!
+
+TEST MUL POLYNOMIAL INT (N=1000)
+Dynamic array: 29305 microseconds
+Linked list: 6826587 microseconds
+Dynamic array is 232 times faster than a linked list!
+
+TEST MUL POLYNOMIAL DOUBLE (N=1000)
+Dynamic array: 25978 microseconds
+Linked list: 6906526 microseconds
+Dynamic array is 265 times faster than a linked list!
+
+TEST COMPOSITION INT (N=30)
+Dynamic array: 107966 microseconds
+Linked list: 5812904 microseconds
+Dynamic array is 53 times faster than a linked list!
+
+TEST COMPOSITION DOUBLE (N=30)
+Dynamic array: 105661 microseconds
+Linked list: 5792094 microseconds
+Dynamic array is 54 times faster than a linked list!
+
+TEST CALCULATING INT (N=10000)
+Dynamic array: 1052 microseconds
+Linked list: 187759 microseconds
+Dynamic array is 178 times faster than a linked list!
+
+TEST CALCULATING DOUBLE (N=10000)
+Dynamic array: 295 microseconds
+Linked list: 168260 microseconds
+Dynamic array is 570 times faster than a linked list!
+
